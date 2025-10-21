@@ -13,14 +13,24 @@ print(1, 2, 6, 'Hello', sep='-t-')
 #Date type: String, Integer, Float, Boolean
 
 # [1] Integer: number with no decimal point (Natural numbers)
-3, 5, -3, 201
+# 3, 5, -3, 201
 # [2] Float: numbers with decimal point
-3.14, -0.001, 2.0
+# 3.14, -0.001, 2.0
 # [3] String: sequence of characters enclosed in single or double quotes
-'Hello', "The End"
-"5.00"
+# 'Hello', "The End"
+# "5.00"
 # [4] Boolean (Truth Value): True or False values
-True, False
+# True, False
+
+#NoneType
+# None
+
+print(type(56))
+print(type(3.14))
+print(type('Hello'))
+print(type(True))
+print(type(None))
+
 
 #comment1
 #comment2
@@ -30,3 +40,5 @@ line1
 line2
 line3
 '''
+
+input("Enter your name: ")
