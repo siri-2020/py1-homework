@@ -40,5 +40,5 @@ line1
 line2
 line3
 '''
-
-input("Enter your name: ")
+name = input("")
+age = input("")
