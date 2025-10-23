@@ -1,5 +1,5 @@
 celcius = int(input('Input Celsius temperature: '))
-fahrenheit = (Celcius * 1.8) + 32
+fahrenheit = (celcius * 1.8) + 32
 print(fahrenheit)
 
 fahrenheit = int(input('Input Fahrenheit temperature: '))
