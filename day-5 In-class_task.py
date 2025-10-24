@@ -1,4 +1,4 @@
-number = int(input())
+number = float(input())
 output = ""
 
 if number % 2 == 0:
