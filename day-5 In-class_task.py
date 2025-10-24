@@ -1,9 +1,12 @@
-number = int(input("Enter a number: "))
+number = int(input())
+output = ""
 
 if number % 2 == 0:
+    output = "A"
     if number % 3 == 0:
-        print("C")
+        output = "C"
     else:
-        print("B")
+        output = "B"
 else:
-    print("D")
+    output = "D"
+print(output)
